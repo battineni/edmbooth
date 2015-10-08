@@ -25,12 +25,16 @@ end
 
 group :development, :test do
   gem 'byebug'
+  gem 'rspec-rails', "~> 2.14"
   gem 'spring'
   gem 'web-console', '~> 2.0'
 end
 
+group :production do
+end
 
-group :production do 
+group :Test do
+  gem 'capybara', "2.1.0"
 end
 
 
