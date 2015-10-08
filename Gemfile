@@ -3,7 +3,7 @@ ruby '2.2.2'
 gem 'rails', '4.2.2'
 # gem 'bcrypt', '~> 3.1.7'
 # gem 'capistrano-rails', group: :development
-gem 'foundation-rails'
+gem 'foundation-rails', '~> 5.5.2.1'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'pg'
@@ -25,7 +25,7 @@ end
 
 group :development, :test do
   gem 'byebug'
-  gem 'rspec-rails', "~> 2.14"
+  gem 'rspec-rails'
   gem 'spring'
   gem 'web-console', '~> 2.0'
 end
@@ -34,7 +34,7 @@ group :production do
 end
 
 group :Test do
-  gem 'capybara', "2.1.0"
+  gem 'capybara'
 end
 
 
