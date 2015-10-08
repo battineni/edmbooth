@@ -1,11 +1,14 @@
 source 'https://rubygems.org'
 ruby '2.2.2'
-
 gem 'rails', '4.2.2'
-gem 'pg'
+# gem 'bcrypt', '~> 3.1.7'
+# gem 'capistrano-rails', group: :development
+gem 'foundation-rails'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
+gem 'pg'
 gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'unicorn'
 
 group :assets do
   gem 'coffee-rails', '~> 4.1.0'
@@ -16,7 +19,7 @@ end
 
 group :development do 
   gem 'better_errors'
-  gem 'binding_of_caller' # I tried adding this and got an occational crash
+  gem 'binding_of_caller' # I tried adding this and got an occasional crash
   gem 'pry-rails'
 end
 
@@ -45,4 +48,8 @@ end
 #gem 'pry-rails', '~> 0.3.2'
 #gem 'simple_bdd'
 #gem 'shoulda-matchers'
+
+#gem research:
+
+#gem 'dynamic_form'
 
