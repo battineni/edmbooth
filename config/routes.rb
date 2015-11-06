@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'static_pages/home'
+
   root 'application#index'
   #resources :venues, :bands, :events, :genres, :record_labels
 end
